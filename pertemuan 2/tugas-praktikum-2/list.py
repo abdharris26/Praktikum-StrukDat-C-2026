@@ -11,3 +11,15 @@ mean = total / len(stok)
 print (mean)
 
 print(stok)
+
+
+buah = ["apple", "banana", "cherry"]
+
+buah.append("orange")
+buah.insert(1, "mango")
+
+buah[2] = "grape"
+
+buah.sort()
+
+print(buah)

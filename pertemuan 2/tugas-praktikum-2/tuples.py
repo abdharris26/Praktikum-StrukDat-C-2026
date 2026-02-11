@@ -7,3 +7,16 @@ print("harga barang:", barang[2])
 
 kode, nama, harga = barang
 print(kode, nama, barang)
+
+buah = ("apple", "banana", "cherry")
+
+print(buah)
+
+print(buah[1])
+
+# buah[1] = "mango"   # akan error karena tuple tidak bisa diubah
+
+a, b, c = buah
+print(a)
+print(b)
+print(c)

@@ -15,3 +15,24 @@ print("\nSiswa dengan nilai UAS di atas 80:")
 for x in nilai_siswa.values():
     if x["uas"] > 80:
         print(x["nama"])
+
+
+siswa = {
+    "nama": "Andi",
+    "umur": 20,
+    "jurusan": "Teknik Informatika"
+}
+
+print(siswa)
+
+print(siswa["nama"])
+
+siswa["umur"] = 21
+
+siswa["angkatan"] = 2023
+
+print(siswa)
+
+for key, value in siswa.items():
+    print(key, ":", value)
+
