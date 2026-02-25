@@ -5,12 +5,16 @@ class Kapal:
     self.warna = warna
 
   def kapal_baru(self):
-        print("hai saya memiliki kapal {self.kapal} ", "dengan berat {self.berat}","dan warna kapal saya {self.warna}")
-
+        print("hai saya memiliki kapal" , self.kapal )
+        
   def change_warna(self, news_warna):
         self.warna = news_warna
         print(f"warna kapal baru saya {news_warna}")
 
+    
+  def change_berat(self, news_berat):
+        self.berat = news_berat
+        print("berat kapal baru saya " + news_berat)
   
  
 kapalSatu = Kapal("titanik","100","hijau")
@@ -22,5 +26,7 @@ kapalTiga  =  Kapal("nelayan","40","putih")
 print(kapalSatu.kapal)
 print(kapalSatu.berat)
 print(kapalSatu.warna)
+print(kapalDua.berat)
 
 kapalSatu.change_warna("hitam")
+kapalSatu.change_berat("1 ton")
