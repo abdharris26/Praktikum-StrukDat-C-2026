@@ -18,3 +18,38 @@ gudang_pc.append({
 #soal 3
 for x in gudang_pc:
     print(f"Item: {x["item"]} | Total Aset: Rp {x["harga"] * x["stok"]}")
+    
+# method dictionary
+# clear()
+# Menghapus seluruh pasangan key–value dalam dictionary.
+
+# copy()
+# Membuat salinan dictionary tanpa memengaruhi dictionary asli.
+
+# fromkeys()
+# Membuat dictionary baru dari sekumpulan key dengan nilai yang sama.
+
+# get()
+# Mengambil nilai dari key tertentu.
+# Tidak menimbulkan error jika key tidak ditemukan.
+
+# items()
+# Mengembalikan pasangan key dan value dalam bentuk tuple.
+
+# keys()
+# Mengembalikan semua key dalam dictionary.
+
+# values()
+# Mengembalikan semua value dalam dictionary.
+
+# pop()
+# Menghapus elemen berdasarkan key dan mengembalikan nilainya.
+
+# popitem()
+# Menghapus dan mengembalikan pasangan key–value terakhir.
+
+# setdefault()
+# Mengambil nilai dari key tertentu, atau menambahkan key dengan nilai default jika belum ada.
+
+# update()
+# Memperbarui dictionary dengan pasangan key–value dari dictionary lain atau iterable.

@@ -7,4 +7,28 @@ for x in data_aktivitas:
         print(x[0],"mendapatkan predikat silver")
     else:
         print(x[0],"mendapatkan bronze")
-    
+ 
+# method tuple
+# count()
+# Menghitung jumlah kemunculan suatu elemen tertentu di dalam tuple.
+
+# index()
+# Mengembalikan posisi (indeks) dari elemen tertentu yang pertama kali ditemukan dalam tuple.
+
+# len()
+# Menghitung jumlah elemen yang terdapat di dalam tuple.
+
+# max()
+# Mengembalikan nilai terbesar dari elemen-elemen dalam tuple.
+
+# min()
+# Mengembalikan nilai terkecil dari elemen-elemen dalam tuple.
+
+# sum()
+# Menjumlahkan seluruh elemen numerik di dalam tuple.
+
+# sorted()
+# Mengurutkan elemen tuple dan menghasilkan list baru (tuple asli tidak berubah).
+
+# tuple()
+# Mengubah iterable (misalnya list) menjadi tuple.
