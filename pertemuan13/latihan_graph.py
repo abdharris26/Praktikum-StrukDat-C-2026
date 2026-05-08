@@ -54,7 +54,7 @@ class Graph:
 
 sistem = Graph()
 
-print("SISTEM NAVIGASI LOGISTIK \"KILAT MAJU\" [cite: 303]")
+print("SISTEM NAVIGASI LOGISTIK \"KILAT MAJU\" ")
 print("========================================")
 
 # 1. Input Jaringan Sesuai Skenario
